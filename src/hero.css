@@ -33,12 +33,16 @@
 }
 
 .header__link {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.4rem;
     line-height: 1.21;
     text-transform: uppercase;
     color: #FFFFFF;
     text-decoration: none;
+}
+.header__link-bl {
+    font-weight: 700;
+
 }
 
 .btn {
@@ -51,6 +55,7 @@
 }
 
 .btn--sm {
+    color: #FFFFFF;
     margin: 0 32px; /*?????? хороший вариант?*/
     padding: 11px 28px;
     min-width: 100px;
