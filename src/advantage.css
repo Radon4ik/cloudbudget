@@ -1,0 +1,43 @@
+.advantage {
+    padding-top: 61px;
+    padding-bottom: 61px;
+    background-color: #ED4C5C;
+}
+
+.advantage__flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 125px;
+}
+
+.advantage__content {
+    width: 445px;
+}
+
+.advantage__title {
+    font-size: 3.6rem;
+    line-height: 1.19;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.advantage__text {
+    margin-bottom: 33px;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.advantage__flex {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.advantage__picture {
+    height: 378px;
+    width: 540px;
+    border-radius: 10px;
+}

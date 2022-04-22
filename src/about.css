@@ -1,0 +1,33 @@
+.about {
+    padding: 94px;
+    background-color: #FFFFFF;
+
+}
+
+.about__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__content {
+    width: 445px;
+}
+
+.about__title {
+    font-size: 3.6rem;
+    line-height: 1.19;
+    color: #000000;
+    margin-bottom: 56px;
+}
+
+.about__text {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    text-align: justify;
+    color: #000000;
+}
+
+.about__img {
+    width: 540px;
+}

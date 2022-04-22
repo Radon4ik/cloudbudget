@@ -1,0 +1,129 @@
+.footer {
+    background-color: #FAFAFA;
+    padding-top: 89px;
+    padding-bottom: 79px;
+}
+
+.footer__flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 31px;
+    align-items: center;
+}
+
+.footer__flex-container:nth-child(4) {
+    flex-grow: 1;
+}
+
+.address {
+    height: 267px;
+    width: 254px;
+}
+
+/*.address-flex {*/
+/*    display: flex;            почему не работает???*/
+/*    flex-direction: column;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+
+.address__title {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1.22;
+    color: #101010;
+    margin-bottom: 33px;
+}
+
+.address__text {
+    width: 200px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #101010;
+    margin-bottom: 132px;
+}
+
+.address__sub-text {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.21;
+    color: #101010;
+}
+
+.services {
+    height: 267px;
+    width: 254px;
+
+}
+
+.services__title {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1.22;
+    color: #101010;
+    margin-bottom: 28px;
+}
+
+.services__link {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    text-transform: capitalize;
+    color: #000000;
+    text-decoration: none;
+}
+
+.touch {
+    height: 267px;
+    width: 254px;
+}
+
+.touch__title {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1.22;
+    color: #101010;
+    margin-bottom: 33px;
+}
+
+.touch__text {
+    font-size: 1.4rem;
+    line-height: 1.21;
+    color: #101010;
+    margin-bottom: 10px;
+}
+
+.touch__num {
+    font-size: 1.4rem;
+    line-height: 1.21;
+    color: #101010;
+    margin-bottom: 17px;
+}
+
+.social-flex {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.support {
+    height: 267px;
+    width: 254px;
+}
+
+.support__title {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1.22;
+    color: #101010;
+    margin-bottom: 33px;
+}
+
+.support__link {
+    width: 216px;
+    height: 31px;
+}
+
+.support__img {
+   width:  100%;
+}
