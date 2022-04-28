@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
@@ -12,8 +12,8 @@
 <main>
     <!--    hero start-->
     <section class="hero">
-        <div class="container">
-            <header class="header header-container">
+        <header class="header ">
+            <div class="container header-container">
                 <a href="" class="header__logo">
                     <img src="../img/dashicons-cloud.svg" alt="cloud" class="header__img">
                     CloudBudget
@@ -45,11 +45,13 @@
                         </a>
                     </li>
                 </ul>
-                <button class="btn btn--sm">
-                    LOGIN
-                </button>
-            </header>
-        </div>
+                <div class="header__box-button">
+                    <button class="btn btn--sm">
+                        LOGIN
+                    </button>
+                </div>
+            </div>
+        </header>
         <div class="container hero__container">
             <h1 class="hero__title">
                 CloudBudget
@@ -140,58 +142,60 @@
             </h2>
             <ul class="technology__list technology__content">
                 <li class="technology__item technology__item-grid">
-                    <h1 class="technology__box-title">01</h1>
-                    <div class="technology__text-box">
-                        <a href="" class="technology__link">
+                    <p class="technology__box-title">01</p>
+                    <a href="" class="technology__link">
+                        <figure class="technology__text-box">
                             <img src="../img/cloud.png" alt="cloud" class="technology__sub-img technology__sub-img-bg">
-                            <figure class="technology__signature">
+                            <figcaption class="technology__signature">
                                 Cloud Storage
-                            </figure>
-                        </a>
-                        <p class="technology__text">
-                            Access your account from anywhere in the world on any device
-                        </p>
-                    </div>
-                </li>
-                <li class="technology__item technology__item-grid">
-                    <h1 class="technology__box-title">02</h1>
-                    <div class="technology__text-box">
-                        <a href="" class="technology__link">
-                            <img src="../img/security.png" alt="security" class="technology__sub-img">
-                            <figure class="technology__signature">
-                                Secure
-                            </figure>
-                        </a>
-                        <p class="technology__text">
-                            All your information is stored on secure cloud servers
-                        </p>
-                    </div>
-                </li>
-                <li class="technology__item technology__item-grid">
-                    <h1 class="technology__box-title">03</h1>
-                    <div class="technology__text-box">
-                        <a href="" class="technology__link">
-                            <img src="../img/pdf.svg" alt="pdf" class="technology__sub-img">
-                            <figure class="technology__signature">
-                                PDF Download
-                            </figure>
-                        </a>
-                        <p class="technology__text">
-                            Download any of your reports in PDF format
-                        </p>
-                    </div>
-                </li>
-                <li class="technology__item technology__item-grid">
-                    <h1 class="technology__box-title">04</h1>
-                    <div class="technology__text-box"><a href="" class="technology__link">
-                        <img src="../img/file-csv.svg" alt="csv" class="technology__sub-img">
-                        <figure class="technology__signature">
-                            CSV Download
+                            </figcaption>
+                            <p class="technology__text">
+                                Access your account from anywhere in the world on any device
+                            </p>
                         </figure>
                     </a>
-                        <p class="technology__text">
-                            All your information is stored on secure cloud servers
-                        </p></div>
+                </li>
+                <li class="technology__item technology__item-grid">
+                    <p class="technology__box-title">02</p>
+                    <a href="" class="technology__link">
+                        <figure class="technology__text-box">
+                            <img src="../img/security.png" alt="security" class="technology__sub-img">
+                            <figcaption class="technology__signature">
+                                Secure
+                            </figcaption>
+                            <p class="technology__text">
+                                All your information is stored on secure cloud servers
+                            </p>
+                        </figure>
+                    </a>
+                </li>
+                <li class="technology__item technology__item-grid">
+                    <p class="technology__box-title">03</p>
+                    <a href="" class="technology__link">
+                        <figure class="technology__text-box">
+                            <img src="../img/pdf.svg" alt="pdf" class="technology__sub-img">
+                            <figcaption class="technology__signature">
+                                PDF Download
+                            </figcaption>
+                            <p class="technology__text">
+                                Download any of your reports in PDF format
+                            </p>
+                        </figure>
+                    </a>
+                </li>
+                <li class="technology__item technology__item-grid">
+                    <p class="technology__box-title">04</p>
+                    <a href="" class="technology__link">
+                        <figure class="technology__text-box">
+                            <img src="../img/file-csv.svg" alt="csv" class="technology__sub-img">
+                            <figcaption class="technology__signature">
+                                CSV Download
+                            </figcaption>
+                            <p class="technology__text">
+                                All your information is stored on secure cloud servers
+                            </p>
+                        </figure>
+                    </a>
                 </li>
             </ul>
         </div>
@@ -245,7 +249,7 @@
                     of the great explorer of the truth, the master-builder of human happiness.
                 </p>
             </div>
-            <forma class="contact__form contact__grid-content">
+            <form class="contact__form contact__grid-content">
                 <input type="text" placeholder="First name" class="contact__field">
                 <input type="text" placeholder="last name" class="contact__field">
                 <input type="tel" placeholder="Phone Number" class="contact__field">
@@ -253,7 +257,7 @@
                     <option value="value1">Select Service</option>
                 </select>
                 <input type="submit" value="Submit Now" class="btn btn-red">
-            </forma>
+            </form>
         </div>
     </section>
     <!--    contact end-->
@@ -270,46 +274,46 @@
                 81-83 Jacovides Tower, 1st Floor
                 1090 Picosia USA
             </p>
-            <p class="address__sub-text">
-                Copyright 2020 CloudBudget
-            </p>
         </div>
-        <ul class="services">
-            <li class="services__item">
-                <h3 class="services__title">
-                    Services
-                </h3>
-            </li>
-            <li class="services__item">
-                <a href="" class="services__link">
-                    overview
-                </a>
-            </li>
-            <li class="services__item">
-                <a href="" class="services__link">
-                    features
-                </a>
-            </li>
-            <li class="services__item">
-                <a href="" class="services__link">
-                    technology
-                </a>
-            </li>
-            <li class="services__item">
-                <a href="" class="services__link">
-                    Terms & Conditions
-                </a>
-            </li>
-            <li class="services__item">
-                <a href="" class="services__link">
-                    Privecy
-                </a>
-            </li>
-        </ul>
+        <div class="services">
+            <h3 class="services__title">
+                Services
+            </h3>
+            <ul class="servers__list">
+                <li class="services__item">
+
+                </li>
+                <li class="services__item">
+                    <a href="" class="services__link">
+                        overview
+                    </a>
+                </li>
+                <li class="services__item">
+                    <a href="" class="services__link">
+                        features
+                    </a>
+                </li>
+                <li class="services__item">
+                    <a href="" class="services__link">
+                        technology
+                    </a>
+                </li>
+                <li class="services__item">
+                    <a href="" class="services__link">
+                        Terms & Conditions
+                    </a>
+                </li>
+                <li class="services__item">
+                    <a href="" class="services__link">
+                        Privecy
+                    </a>
+                </li>
+            </ul>
+        </div>
         <div class="touch">
-                <h3 class="touch__title">
-                    Get in Touch
-                </h3>
+            <h3 class="touch__title">
+                Get in Touch
+            </h3>
             <p class="touch__text">
                 info@cloudbudget.com
             </p>
@@ -334,18 +338,17 @@
                 </li>
             </ul>
         </div>
-        <ul class="support">
-            <li class="support__item">
-                <h3 class="support__title">
-                    We Support
-                </h3>
-            </li>
-            <li class="support__item">
-                <a href="" class="support__link">
-                    <img src="../img/cards.png" alt="cards" class="support__img">
-                </a>
-            </li>
-        </ul>
+        <div class="support">
+            <h3 class="support__title">
+                We Support
+            </h3>
+            <a href="" class="support__link">
+                <img src="../img/cards.png" alt="cards" class="support__img">
+            </a>
+        </div>
+        <p class="address__sub-text">
+            Copyright 2020 CloudBudget
+        </p>
     </div>
 </footer>
 <!--    footer end-->

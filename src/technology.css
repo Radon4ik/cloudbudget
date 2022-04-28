@@ -4,6 +4,19 @@
     background-color: #FFFFFF;
 }
 
+@media (max-width: 992px) {
+    .technology {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .technology {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
 .technology__title {
     font-size: 3.6rem;
     line-height: 1.19;
@@ -12,14 +25,43 @@
     margin-bottom: 56px;
 }
 
+@media (max-width: 992px) {
+    .technology__title {
+        font-size: 3rem;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .technology__title {
+        font-size: 2.6rem;
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 400px) {
+    .technology__title {
+        font-size: 2rem;
+    }
+}
+
 .technology__content {
     display: grid;
-    align-items: center;
     text-align: center;
     gap: 60px;
-    justify-content: space-between;
     grid-template-columns: repeat(4, 1fr);
 
+}
+@media (max-width: 992px) {
+    .technology__content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+@media (max-width: 600px) {
+    .technology__content{
+        gap: 10px;
+    }
 }
 
 .technology__item-grid {
@@ -30,30 +72,55 @@
     position: relative;
 }
 
+
 .technology__box-title {
     font-weight: 700;
     font-size: 10rem;
     line-height: 1.2;
     color: rgba(16, 16, 16, 0.08);
-
 }
 
-.technology__text-box {
-    width: 255px;
-    height: 226px;
-    position: absolute;
-    top: 70px;
-    padding: 15px;
+@media (max-width: 992px) {
+    .technology__box-title {
+        font-size: 12rem;
+    }
+}
 
+@media (max-width: 400px) {
+    .technology__box-title {
+        font-size: 10rem;
+    }
 }
 
 .technology__link {
+    display: block;
+    width: 255px;
+    height: 226px;
+    position: absolute;
+    top: 60px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+@media (max-width: 992px) {
+    .technology__link {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .technology__link {
+        width: 100%;
+        height: 70%;
+        padding: 5%;
+    }
+}
+.technology__signature {
     font-weight: 700;
     font-size: 1.8rem;
     line-height: 1.22;
     color: #101010;
-    text-decoration: none;
-
+    margin-bottom: 15px;
 }
 
 .technology__sub-img {
@@ -62,15 +129,27 @@
     margin-bottom: 14px;
 }
 
+@media (max-width: 992px) {
+    .technology__sub-img {
+        width: 30%;
+        height: 30%;
+    }
+}
+
 .technology__sub-img-bg {
     width: 70px;
     height: 55px;
 }
 
+@media (max-width: 992px) {
+    .technology__sub-img-bg {
+        width: 45%;
+        height: 35%;
+    }
 
+}
 
 .technology__text {
-    margin-top: 15px;
     font-size: 1.4rem;
     line-height: 1.21;
     color: #000000;
