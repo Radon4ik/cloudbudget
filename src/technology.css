@@ -12,8 +12,8 @@
 
 @media (max-width: 768px) {
     .technology {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 
@@ -137,16 +137,16 @@
 }
 
 .technology__sub-img-bg {
-    width: 70px;
-    height: 55px;
+    width: 30%;
+    height: 30%;
+    margin-bottom: 5px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 560px) {
     .technology__sub-img-bg {
-        width: 45%;
-        height: 35%;
+        width: 40%;
+        height: 40%;
     }
-
 }
 
 .technology__text {

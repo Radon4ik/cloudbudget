@@ -7,27 +7,23 @@
 @media (max-width: 1200px) {
     .features {
         padding-top: 40px;
-
     }
 }
 
 @media (max-width: 800px) {
     .features {
-        padding-top: 15px;
-
+        padding-top: 20px;
     }
 }
 
 @media (max-width: 780px) {
     .features {
         padding-bottom: 350px;
-
     }
 }
 @media (max-width: 550px) {
     .features {
         padding-bottom: 100px;
-
     }
 }
 
@@ -63,7 +59,6 @@
     .features__title {
         font-size: 2rem;
         margin-bottom: 0px;
-
     }
 }
 
@@ -193,7 +188,6 @@
 @media (max-width: 1200px) {
     .features__sub-text {
         margin-bottom: 5px;
-
     }
 }
 
@@ -214,6 +208,5 @@
 @media (max-width: 800px) {
     .features__sub-link {
         font-size: 1rem;
-
     }
 }

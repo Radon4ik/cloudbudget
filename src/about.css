@@ -10,11 +10,6 @@
     }
 }
 
-@media (max-width: 600px) {
-    .about {
-        padding: 10px 0;
-    }
-}
 
 .about__container {
     display: flex;
@@ -25,7 +20,6 @@
 @media (max-width: 1200px) {
     .about__container {
         gap: 20px;
-
     }
 }
 
